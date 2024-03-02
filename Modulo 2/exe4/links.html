@@ -22,11 +22,20 @@
         color:black;
         text-decoration:underline ;
       }
-      a:active{
+      a:active {
         color: yellow;
       }
       
-      a::after {
+      .especial{
+        background-color:#d65f5f ;
+        color: black;
+      }
+      
+      .especial::before {
+        content: '✓';
+      }
+      
+      .especial::after {
         content: ' [link]';
         text-decoration: none;
         font-weight: normal;
@@ -39,7 +48,7 @@
     <h1>Personalizando links</h1>
     <ul>
       <li><a href="https://github.com/ViniciusDadalte">Repositorio github</a></li>
-      <li><a href="https://youtube.com/cursoemvideo">Canal do youtube</a></li>
+      <li><a class="especial" href="https://youtube.com/cursoemvideo">Canal do youtube</a></li>
       <li><a href="https://www.cursoemvideo.com">Site do curso em video</a></li>
     </ul>
   </body>
