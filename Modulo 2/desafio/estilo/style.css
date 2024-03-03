@@ -101,6 +101,7 @@ main h2 {
 main p {
   margin: 15px 0px;
   text-align: justify;
+  text-indent: 30px;
 }
 
 main img {
