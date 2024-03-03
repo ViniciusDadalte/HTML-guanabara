@@ -96,6 +96,8 @@ main  h1 {
 
 main h2 {
   font-family: var(--fonte-android);
+  color: var(--cor4);
+  font-size: 1.3em;
 }
 
 main p {
@@ -114,8 +116,14 @@ main strong {
 main a {
   text-decoration: none;
   font-weight: bold;
+  color: var(--cor5);
   background-color:var(--cor1) ;
   padding: 2px 6px;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: var(--cor4);
 }
 
 main img {
