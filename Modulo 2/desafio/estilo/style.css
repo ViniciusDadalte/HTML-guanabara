@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #c5ebd6;
+  background-color: --cor0;
 }
 
 header > h1 {
