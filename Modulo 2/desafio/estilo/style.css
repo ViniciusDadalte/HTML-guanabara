@@ -33,6 +33,8 @@ body {
 
 header {
   background-color: var(--cor4);
+  min-height: 350px;
+  text-align: center;
 }
 
 header > h1 {
