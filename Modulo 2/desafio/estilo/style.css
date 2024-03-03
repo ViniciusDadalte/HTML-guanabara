@@ -142,6 +142,7 @@ aside {
   background-color: var(--cor1);
   padding:10px ;
   border-radius: 10px;
+  box-shadow: 3px 3px 8px #00000075;
 }
 
 aside > h3 {
