@@ -26,6 +26,10 @@ body {
   font-family: var(--fonte-padrao);
 }
 
+header {
+  background-color: var(--cor4);
+}
+
 header > h1 {
   color: var(--cor3);
   font-family: var(--fonte-destaque);
