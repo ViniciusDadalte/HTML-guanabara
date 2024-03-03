@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: ;
+  background-color: var(--cor0);
 }
 
 header > h1 {
