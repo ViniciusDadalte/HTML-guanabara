@@ -31,8 +31,12 @@ header {
 }
 
 header > h1 {
-  color: var(--cor3);
+  color: white;
   font-family: var(--fonte-destaque);
+}
+
+header > p {
+  color: white;
 }
 
 main  h1 {
