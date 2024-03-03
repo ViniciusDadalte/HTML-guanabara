@@ -1,6 +1,20 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/*
+#c5ebd6
+#83e1ab
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
 body {
   background-color: #c5ebd6;
 }
+
+header > h1 {
+  
+}
+
