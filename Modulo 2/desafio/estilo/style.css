@@ -55,3 +55,7 @@ main  h1 {
 main h2 {
   font-family: var(--fonte-android);
 }
+
+footer {
+  background-color:var(--cor5) ;
+}
