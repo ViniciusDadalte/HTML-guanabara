@@ -1,5 +1,7 @@
 @charset 'UTF-8';
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
   font-family: 'Android';
   src: url('/fontes/idroid.otf') format('opentype');
@@ -31,4 +33,5 @@ header > h1 {
 
 main  h1 {
   color: var(--cor5);
+  font-family: var(--fonte-destaque);
 }
