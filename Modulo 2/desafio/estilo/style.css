@@ -33,6 +33,7 @@ body {
 
 p {
   margin: 15px 0px;
+  text-align: justify;
 }
 
 header {
