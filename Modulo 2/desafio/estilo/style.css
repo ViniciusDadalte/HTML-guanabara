@@ -59,7 +59,6 @@ header > p {
   padding-right: 10px;
   padding-left: 10px;
   margin: auto;
-  margin-bottom: 20px;
   text-shadow: 2px 2px 0px #00000087;
 }
 
@@ -76,6 +75,7 @@ nav > a {
   text-decoration: none;
   font-weight: bold;
   transition-duration: .5s;
+  margin-top:20px ;
 }
 
 nav > a:hover {
