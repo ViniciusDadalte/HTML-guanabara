@@ -70,15 +70,18 @@ section.normal {
 section.imagem {
   background-color: #312e2e;
   color: white;
+  box-shadow: inset 3px 3px 13px 0px blacl;
 }
 
 section#img01 {
   background-image: url('../images/background001.jpg');
   background-position: right center;
+  background-size: cover;
 }
 
 section#img02 {
   background-image: url('../images/background002.jpg');
+  background-size: cover;
 }
 
 section.imagem > p {
