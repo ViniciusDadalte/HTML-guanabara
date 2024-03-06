@@ -84,7 +84,8 @@ section#img02 {
 section.imagem > p {
   display: inline-block;
   padding: 5px;
-  background-color: #00000039;
+  background-color: #0000006e;
+  text-shadow: 1px 1px 0px black;
 }
 
 footer {
