@@ -71,17 +71,16 @@ section.imagem {
   background-color: #312e2e;
   color: white;
   box-shadow: inset 6px 6px 13px 0px #00000077;
+  background-size: cover;
 }
 
 section#img01 {
   background-image: url('../images/background001.jpg');
   background-position: right center;
-  background-size: cover;
 }
 
 section#img02 {
   background-image: url('../images/background002.jpg');
-  background-size: cover;
 }
 
 section.imagem > p {
