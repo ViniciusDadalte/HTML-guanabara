@@ -35,7 +35,15 @@ header a:hover, footer a:hover{
   text-decoration: underline;
 }
 
+section.normal {
+  background-color: white;
+  color: black;
+}
 
+section.imagem {
+  background-color: #312e2e;
+  color: white;
+}
 
 footer {
   background-color: black;
