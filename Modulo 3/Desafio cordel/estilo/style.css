@@ -72,6 +72,14 @@ section.imagem {
   color: white;
 }
 
+section#img01 {
+  background-image: url('/images/background001.jpg');
+}
+
+section#img02 {
+  background-image: url('/images/background002.jpg');
+}
+
 section.imagem > p {
   display: inline-block;
   padding: 5px;
