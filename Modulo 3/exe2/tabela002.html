@@ -12,6 +12,7 @@
       table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
       
       td, th {
@@ -29,6 +30,10 @@
       thead, tfoot {
         background-color: rgb(44,44,44);
         color: white;
+      }
+      
+      thead > tr > th {
+        position: sticky;
       }
       
       tbody > tr:nth-child(odd) {/*2n-1*/
