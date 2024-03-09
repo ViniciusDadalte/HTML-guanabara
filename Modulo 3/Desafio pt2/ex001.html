@@ -19,12 +19,15 @@
       border:1px solid black;
       text-align:center;
       padding:10px;
-      background-color:grey;
-      color:white;
     }
     
     td {
       border:1px solid black;
+    }
+    
+    .cor {
+      background-color:grey;
+      color:white;
     }
   </style>
 </head>
@@ -32,14 +35,14 @@
   <table>
     <thead>
       <tr>
-        <th scope="row" rowspan="2"></th>
-        <th scope="row" rowspan="2"></th>
-        <th scope="rowgroup" colspan="2"></th>
-        <th scope="row" rowspan="2"></th>
+        <th class="cor" scope="row" rowspan="2"></th>
+        <th class="cor" scope="row" rowspan="2"></th>
+        <th class="cor" scope="rowgroup" colspan="2"></th>
+        <th class="cor" scope="row" rowspan="2"></th>
       </tr>
       <tr>
-        <th scope="row"></th>
-        <th scope="row"></th>
+        <th class="cor" scope="row"></th>
+        <th class="cor" scope="row"></th>
       </tr>
     </thead>
     <tbody>
@@ -69,8 +72,8 @@
         <td></td>
       </tr>
       <tr>
-        <th colspan="4" scope="row"></th>
-        <td></td>
+        <th class="cor" colspan="4" scope="row"></th>
+        <td class="cor"></td>
       </tr>
       <tr>
         <th rowspan="4"></th>
@@ -86,8 +89,8 @@
         <td></td>
       </tr>
       <tr>
-        <th colspan="4" scope="row"></th>
-        <td></td>
+        <th class="cor" colspan="4" scope="row"></th>
+        <td class="cor"></td>
       </tr>
     </tbody>
   </table>
