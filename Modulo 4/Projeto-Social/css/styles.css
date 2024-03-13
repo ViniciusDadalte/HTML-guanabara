@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  background: url('../images/images-project/fundo-madeira.jpg');
+  background: url('../images/images-project/fundo-madeira.jpg') no-repeat top center;
 }
 
 main {
