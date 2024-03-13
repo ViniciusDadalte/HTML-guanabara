@@ -11,3 +11,9 @@ html, body {
   width:100vw;
   background-color:black;
 }
+
+main {
+  height:100vh;
+  position:relative;
+  background-color:white;
+}
