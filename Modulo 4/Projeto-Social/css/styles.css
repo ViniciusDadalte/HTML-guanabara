@@ -24,8 +24,7 @@ section#telefone {
   left:50%;
   transform:translate(-50%,-50%);
   
-  height:500px;
-  width:500px;
-  background-color:black;
-  background:url('../images/images-project/frame-iphone.png');
+  height:627px;
+  width:311px;
+  background:blue url('../images/images-project/frame-iphone.png') no-repeat;
 }
