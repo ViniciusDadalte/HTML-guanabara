@@ -1,1 +1,1 @@
-alert('Enviado com suceaso');
+"Formulario Enviado com Suxesso :D"
