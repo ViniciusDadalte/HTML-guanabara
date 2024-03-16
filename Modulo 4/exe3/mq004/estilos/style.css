@@ -21,4 +21,7 @@ body {
 
 main {
   background-color: rgba(255,255,255,0.633);
+  width: 90vw;
+  margin: auto;
+  border-radius: 20px;
 }
