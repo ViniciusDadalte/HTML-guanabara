@@ -12,7 +12,8 @@
     
     <p>
       <label for="inum">Numero</label>
-      <input type="range" name="num" id="inum" value="1" min="0" max="10"/>
+      <input type="range" name="num" id="inum" value="1" min="0" max="10" oninput="ival.innerHTML = Number(inum.value);"/>
+      <output id="ival">5</output>
     </p>
     
     <p>
