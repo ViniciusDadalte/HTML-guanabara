@@ -17,12 +17,15 @@ html, body {
 
 body {
   background: black url('../images/back-phone.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 main {
   background-color: rgba(255,255,255,0.633);
   width: 90vw;
   margin: auto;
+  margin-top: 20px;
   border-radius: 10px;
   padding: 10px;
 }
