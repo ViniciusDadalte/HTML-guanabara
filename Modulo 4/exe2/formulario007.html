@@ -33,18 +33,18 @@
     
     <p>
       <label for="iprof">Profissão</label>
-      <input type="text" name="prof" id="iprof" />
-    </p>
-    
-    <p>
-      <input type="submit" value="Enviar" />
-      <input type="reset" value="Limpar" />
-      <datalist>
+      <input type="text" name="prof" id="iprof" list="lstprof"/>
+      <datalist id="lstprof">
         <option value="ADM">Adiministrador</option>
         <option value="CONT">Contabilista</option>
         <option value="DEV">Desenvolvedor</option>
         <option value="PROF">Professor</option>
       </datalist>
+    </p>
+    
+    <p>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
     </p>
   </form>
 </body>
