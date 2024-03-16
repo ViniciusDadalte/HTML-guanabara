@@ -2,3 +2,12 @@
 
 /* Todas as demais midias */
 
+/*
+Types devices brackpoints:
+
+telas pequenas: de 320px ate 480px
+celulares: de 481px ate 788
+tablets: de 789 ate 1024
+desktop: de 1025 ate 1200
+telas grandes: acima de 1201
+*/
