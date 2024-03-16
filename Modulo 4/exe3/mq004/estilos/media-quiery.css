@@ -12,18 +12,54 @@ desktop: de 1025 ate 1200
 telas grandes: acima de 1201
 */
 
-@media print {
+@media print { /* Impressão */
+  body {
+    background-image: url('/../images/back-print.jpg');
+  }
+  
+  img#phone { display: none; }
+  img#tablet { display: none; }
+  img#print { display: block; }
+  img#pc { display: none; }
+  img#tv { display: none; }
   
 }
 
 @media screen and (min-width:769px) and (max-width:1024) { /* Tablets */
+  body {
+    background-image: url('/../images/back-tablet.jpg');
+  }
+  
+  img#phone { display: none; }
+  img#tablet { display: block; }
+  img#print { display: none; }
+  img#pc { display: none; }
+  img#tv { display: none; }
   
 }
 
 @media screen and (min-width:1025px) and (max-width:1200) { /* Desktop */
+  body {
+    background-image: url('/../images/back-pc.jpg');
+  }
+  
+  img#phone { display: none; }
+  img#tablet { display: none; }
+  img#print { display: none; }
+  img#pc { display: block; }
+  img#tv { display: none; }
   
 }
 
 @media screen and (min-width:1201px) { /* Telas grandes */
+  body {
+    background-image: url('/../images/back-tv.jpg');
+  }
+  
+  img#phone { display: none; }
+  img#tablet { display: none; }
+  img#print { display: none; }
+  img#pc { display: none; }
+  img#tv { display: block; }
   
 }
