@@ -12,3 +12,16 @@ html {
   font-size: 1em;
 }
 
+header {
+  background-color: #c0c0c0;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  background-color: grey;
+}
