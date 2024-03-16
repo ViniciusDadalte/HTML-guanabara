@@ -26,5 +26,7 @@ menu ul {
 }
 
 menu li {
+  background-color: #393939;
+  color: white;
   display: inline-block;
 }
