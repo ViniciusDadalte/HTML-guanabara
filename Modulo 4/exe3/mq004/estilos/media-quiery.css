@@ -16,14 +16,14 @@ telas grandes: acima de 1201
   
 }
 
-@media screen and (min-width:769px) and (max-width:1024) {
+@media screen and (min-width:769px) and (max-width:1024) { /* Tablets */
   
 }
 
-@media screen and (min-width:1025px) and (max-width:1200) {
+@media screen and (min-width:1025px) and (max-width:1200) { /* Desktop */
   
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px) { /* Telas grandes */
   
 }
