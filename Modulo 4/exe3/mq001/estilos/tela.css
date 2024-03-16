@@ -20,8 +20,11 @@ header > h1 {
   text-align: center;
 }
 
-header ul {
-  display: inline-block;
+menu ul {
   list-style-type: none;
   background-color: grey;
+}
+
+menu li {
+  display: inline-block;
 }
