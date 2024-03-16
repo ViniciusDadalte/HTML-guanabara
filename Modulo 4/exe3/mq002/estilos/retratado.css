@@ -3,5 +3,5 @@
 /* Aparelho em pé (portrait) */
 
 body {
-  background: black url('../../images/cev-landscape.jpg');
+  background-image:url('../../images/cev-landscape.jpg');
 }
