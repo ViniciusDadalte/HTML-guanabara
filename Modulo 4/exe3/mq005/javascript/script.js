@@ -7,3 +7,12 @@ const clickMenu = () => {
     menu.style.display = 'block';
   }
 }
+
+const mudouTamanho = () => {
+  if (window.innerwidth => 1024) {
+    menu.style.display = 'block';
+  }
+  else {
+    menu.style.display = 'none';
+  }
+}
