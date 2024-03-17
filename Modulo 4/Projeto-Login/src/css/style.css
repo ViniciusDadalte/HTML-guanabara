@@ -49,5 +49,6 @@ section#login {
 section#login > div#imagem {
   background: var(--lilais) url('../images/img-purple.jpg') no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 200px;
 }
