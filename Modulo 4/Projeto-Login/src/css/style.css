@@ -77,7 +77,7 @@ form > div.campo {
 div.campo > input {
   background-color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 div.campo > label {
