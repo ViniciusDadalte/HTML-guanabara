@@ -9,7 +9,7 @@ const clickMenu = () => {
 }
 
 const mudouTamanho = () => {
-  if (window.innerwidth => 1024) {
+  if (window.innerwidth => 769) {
     menu.style.display = 'block';
   }
   else {
