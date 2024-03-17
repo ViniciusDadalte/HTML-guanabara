@@ -74,7 +74,11 @@ form > div.campo {
   margin: 5px 0px;
 }
 
-form label {
+div.campo > input {
+  background-color: white;
+}
+
+div.campo > label {
   display: none;
 }
 
