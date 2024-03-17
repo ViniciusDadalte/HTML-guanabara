@@ -13,9 +13,12 @@ telas grandes: acima de 1201
 */
 
 @media print { /* Impressão */
+  * {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
   body {
     background-image: url('/../images/back-print.jpg'); /* Desnessesario */
-    font-family: 'Courier New', Courier, monospace;
     text-shadow: none;
     color: black;
   }
