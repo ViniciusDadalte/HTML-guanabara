@@ -72,11 +72,12 @@ form > div.campo {
   height: 40px;
   border-radius: 5px;
   margin: 5px 0px;
+  text-align: center;
 }
 
 div.campo > input {
   background-color: white;
-  border: none;
+  border: 1px solid black;
   border-radius: 1px;
 }
 
