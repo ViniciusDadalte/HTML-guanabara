@@ -76,7 +76,7 @@ form > div.campo {
 
 div.campo > input {
   background-color: white;
-  border: 1px solid black;
+  border: none;
   border-radius: 1px;
 }
 
