@@ -1,2 +1,23 @@
 @charset 'UTF-8';
 
+/*
+Types devices breackpoints: 17/03/2024
+----------------------------------------
+telas pequenas: de 320px ate 480px
+celulares: de 481px ate 768
+tablets: de 769 ate 1024
+desktop: de 1025 ate 1200
+telas grandes: acima de 1201
+*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+  
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+  
+}
+
+@media screen and (min-width:1201px) {
+  
+}
