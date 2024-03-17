@@ -30,6 +30,11 @@ telas grandes: acima de 1201
     color: black;
   }
   
+  main::after {
+    content: 'Imprimido por ViniciusGostosura';
+    text-decoration: overline;
+  }
+  
   img#phone { display: none; }
   img#tablet { display: none; }
   img#print { display: block; }
