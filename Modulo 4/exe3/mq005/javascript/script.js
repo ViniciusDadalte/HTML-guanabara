@@ -1,5 +1,6 @@
+menu = document.getElementById('itens');
+
 const clickMenu = () => {
-  menu = document.getElementById('itens');
   if (menu.style.display == 'block') {
     menu.style.display = 'none';
   }
@@ -9,7 +10,7 @@ const clickMenu = () => {
 }
 
 const mudouTamanho = () => {
-  if (window.innerwidth => 769) {
+  if (window.innerWidth >= 769) {
     menu.style.display = 'block';
   }
   else {
