@@ -5,6 +5,7 @@
   --azul: #3245de; 
   --verde:#49a09d;
   --lilais:#5f2c82;
+  --rosa:#ff79e8;
 }
 
 * {
@@ -74,10 +75,23 @@ form > div.campo {
   margin: 5px 0px;
 }
 
+div.campo > span {
+  color: white;
+  /*background-color: black;*/
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+}
+
 div.campo > input {
-  background-color: white;
-  border: none;
-  border-radius: 1px;
+  background-color: var(--rosa);
+  font-size: 1em;
+  width: calc(100% - 44px);
+  height: 100%;
+  transform:translateY(-10px);
+  border: 0px;
+  border-radius: 8px;
+  padding: 4px;
 }
 
 div.campo > label {
