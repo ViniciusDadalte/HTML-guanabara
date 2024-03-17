@@ -10,7 +10,18 @@ desktop: de 1025 ate 1200
 telas grandes: acima de 1201
 */
 
+:root {
+  --verde:#69fe31; /* o verde e o azul sao cores minhas */
+  --azul: #3245de; 
+  --verde:#49a09d;
+  --lilais:#5f2c82;
+}
+
 @media screen and (min-width:769px) and (max-width:1024px) {
+  body {
+    background-image: linear-gradient(to top, black, var(--lilais));
+  }
+  
   section#login {
     width: 80vw;
   }
