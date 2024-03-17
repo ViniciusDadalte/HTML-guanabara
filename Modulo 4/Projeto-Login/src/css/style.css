@@ -80,7 +80,7 @@ form > input[type=submit]:hover {
   background-color: #373737;
 }
 
-a#botao {
+form > a#botao {
   display: block;
   text-align: center;
   font-size: 1em;
@@ -91,4 +91,8 @@ a#botao {
   border: 1px soli black;
   border-radius: 5px;
   text-decoration: none;
+}
+
+form > a#botao > span {
+  font-size: 0.8em;
 }
