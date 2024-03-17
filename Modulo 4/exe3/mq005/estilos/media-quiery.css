@@ -10,7 +10,7 @@ desktop: de 1025 ate 1200
 telas grandes: acima de 1201
 */
 
-@media screen and (min-width:1024) {
+@media screen and (min-width:1024px) {
   span#burguer {
     display: none;
   }
