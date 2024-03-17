@@ -10,14 +10,17 @@ desktop: de 1025 ate 1200
 telas grandes: acima de 1201
 */
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:1024) {
+  span#burguer {
+    display: none;
+  }
   
-}
-
-@media screen and (min-width:1025px) and (max-width:1200px) {
+  menu {
+    display: block;
+  }
   
-}
-
-@media screen and (min-width:1201) {
+  menu > ul > li {
+    display: inline-block;
+  }
   
 }
