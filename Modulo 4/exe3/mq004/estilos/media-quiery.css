@@ -21,6 +21,10 @@ telas grandes: acima de 1201
     background-image: url('/../images/back-print.jpg'); /* Desnessesario */
   }
   
+  main {
+    border: 2px solid black;
+  }
+  
   main h1 {
     text-shadow: none;
     color: black;
